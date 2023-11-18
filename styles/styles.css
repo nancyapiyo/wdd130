@@ -25,12 +25,16 @@ p {
     padding:0;
 }
 
-aside{
-    width: 20em;
-    margin: 1em;
-    border: 1pxsolid  rgba(0,0,0,0.2); /* why use rgba instead of her here */
-    padding: 1em;
-    background-color: #aaa;
+main {
+    max-width: 840px;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1pxsolid  rgba(0,0,0,0.2); /* 1 */
+    padding: 1rem;
+    background-color: #eee;
     color: #333;
     text-align: center;
 }
@@ -39,9 +43,16 @@ aside img {
     width: 200px;
     height: auto;
 }
+main {
+    width: 150px;
+    height: auto;
+    ...
+}
+
+p {padding: 0;}
 
 footer {
-    margin-top: 1em;
+    margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
 }
