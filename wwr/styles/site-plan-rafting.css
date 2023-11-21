@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Share+Tech+Mono&display=swap');
 
 body {
-    font-family: roboto;
+    font-family:Arial ;
 }
 h2 {
-    font-family:Mono;
+    font-family:sans-serif;
     letter-spacing: 15px;
 }
 p {
