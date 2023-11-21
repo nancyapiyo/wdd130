@@ -1,1 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Share+Tech+Mono&display=swap');
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+}
+h2 {
+    font-family:'Rock Salt','Bradley Hand', sans-serif;
+    letter-spacing: 15px;
+}
+p {
+    line-height: 50px;
+}
