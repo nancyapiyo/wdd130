@@ -11,15 +11,16 @@
     --nava-background-color: #fff;
     --nav-link-color: #064e8d
     --nav-hover-link-color: #fff
-    --nav-hover-background-color: rgba(6, 78, 141, .8);
+    --nav-hover-background-color: rgba(6, 78, 141, 8);
 }
-body {
+
+body{
     max-width :960px ;
     padding :20px ;
-    font-family : var(--paragraph-font);
+    --heading-font:'Josefin Sans',serif;
 }
 h1,h2,h3,h4,h5,h6 {
-    font-family: var(--heading-font);
+    --paragraph-font: Roboto,serif;
     color: var(--primary-color);
 }
 
@@ -30,23 +31,23 @@ header {
 p {
     padding: 25px;
 }
-nav {
+nav{
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: #ffffff;
 }
 
-nav a {
-    display: block;
+nav a{
+    display:block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
 
-nav a :link,nav a : visited {
+nav a :link,nav a :visited {
     color:var(--nav-link-color);
 }
-nav a : :hover{
+nav a :hover{
     color:var(--nav-hover-link-color);
     background-color:var(--nav-hover-background-color);
 }
