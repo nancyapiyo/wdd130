@@ -1,34 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Share+Tech+Mono&display=swap');
-
-body {
-    font-family:Arial ;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto&display=swap');
+:root{
+    --primary-color:#064e8d;
+    --secondry-color:#e68f26;
+    --accent1-color:#fff;
+    --accent2-color:#00000;
 }
-h2 {
-    font-family:sans-serif;
-    letter-spacing: 15px;
-}
-p {
-    line-height: 50px;
-}
+    --heading-font:'Josefin Sans', serif;
+    --paragraph-font:Roboto,serif;
 
-:root {
--- primary-color:#xxxxxx;
---secondary-color:#xxxxx;
---accent1-color:#xxxxxx;
---accent2-color:#xxxxxx;
-
---heading-font:'',serif;
---paragraph-font:'',serif;
-
---nava-background-color:#xxxxxx
---nav-link-color:#xxxxxxx
---nav-hover-link-color:#xxxxxx
---nav-hover-background-color:#xxxxxx;
+    --nava-background-color: #fff;
+    --nav-link-color: #064e8d
+    --nav-hover-link-color: #fff
+    --nav-hover-background-color: rgba(6, 78, 141, .8);
 }
 body {
-    font-family : var(--paragraph-font);
     max-width :960px ;
     padding :20px ;
+    font-family : var(--paragraph-font);
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--heading-font);
@@ -45,7 +33,7 @@ p {
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
-    display: flex;
+    display: #ffffff;
 }
 
 nav a {
