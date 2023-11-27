@@ -30,6 +30,7 @@ main {
 }
 
 aside {
+    position: relative;
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgba(0,0,0,0.2); /* 1 */
@@ -38,12 +39,17 @@ aside {
     color: #333;
     text-align: center;
 }
-
+aside h2{
+    position: absolute;
+    top: 47px;
+    left: 150px;
+}
 aside img {
     width: 200px;
     height: auto;
 }
 main img {
+    float: right;
     width: 150px;
     height: auto;
 }
