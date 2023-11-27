@@ -1,8 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
-}
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto&display=swap');
 :root{
     --primary-color:#3C91E6;
@@ -55,11 +50,4 @@ nav a:link, nav a:visited {
 nav a:hover{
     color:var(--nav-hover-link-color);
     background-color:var(--nav-hover-background-color);
-}
-/*-------------------Class Selectors------------------------------------------*/
-.box{
-    margin: 1rem;
-    border: 25px;; 
-    padding: 1rem; 
-    background-color: #F9DEC9; 
 }
