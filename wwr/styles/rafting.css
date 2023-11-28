@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto&display=swap');
+:root{
+    --primary-color:#3C91E6;
+    --secondry-color:#E9AFA3;
+    --accent1-color:#F9DEC9;
+    --accent2-color:#3A405A;
+
+    --heading-font: 'Josefin Sans',serif;
+    --paragraph-font:Roboto,serif;
+
+    --nav-background-color:#F9DEC9;
+    --nav-link-color: #3A405A;
+    --nav-hover-link-color: #3C91E6;
+    --nav-hover-background-color:#F9DEC9;
+}
