@@ -70,14 +70,26 @@ body{
 
 header {
     display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;    
+    background-color: var(--nav-hover-link-color);
+    padding: 10px;
+}
+header img {
+    margin: 0 0.3 0 1 rem;
+    width: 200px;
+    height: auto;
+
 
 }
 
-nav a {
-    display: block;
-    color: var(--nav-link-color);
-    text-decoration: none;
-    padding: 1rem;
+header nav{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    
+
+
+
 }
 
 /* nav a:link, nav a:visited { */
