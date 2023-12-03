@@ -17,7 +17,8 @@ nav a {
 h1{
     color: steelblue;
     border-bottom: 1px solid steelblue;
-    margin-bottom: 10px;
+    margin: 5px;
+    padding: 10px;
 }
 
 img {
@@ -29,7 +30,7 @@ img {
 }
 
 p {
-    padding:0;
+    padding: 10px;
 }
 
 main {
@@ -72,9 +73,10 @@ footer {
 /* Class Selectors */
 .box {
     margin: 1rem;
-    border: 20px; 
-    padding: 1rem; 
-    background-color: #F9DEC9; 
+    border: 1px solid rgb(0, 0, 0, 0.1); 
+    padding: 1rem ; 
+    background-color: #F9DEC9;
+    color: #000; 
 } 
 /* header,footer */
 
