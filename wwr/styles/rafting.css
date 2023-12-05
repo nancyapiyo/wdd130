@@ -92,10 +92,16 @@ header nav{
 
 }
 
-/* nav a:link, nav a:visited { */
-    /* color:var(--nav-link-color); */
-/* } */
-/* nav a:hover{ */
-    /* color:var(--nav-hover-link-color); */
-    /* background-color:var(--nav-hover-background-color); */
-/* } */
+  a {
+    font-family: var(--paragraph-font); 
+    color:var(--nav-link-color); 
+ } 
+  a:hover{ 
+    color:var(--nav-hover-link-color);
+     background-color:var(--nav-hover-background-color);
+} 
+
+footer {
+    display: grid;
+
+}
