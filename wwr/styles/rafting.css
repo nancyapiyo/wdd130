@@ -92,6 +92,9 @@ header nav {
         width: 140px;
 
     }
+    images_adventure {
+        grid-column: 1/6;
+    }
 
   a {
     font-family: var(--paragraph-font); 
