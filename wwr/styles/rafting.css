@@ -101,7 +101,6 @@ header nav {
         color: #fff;
         font: italic smaller sans-serif;
         padding: 3px;
-        text-align: center;
     }
 
   a {
@@ -118,10 +117,8 @@ nav {
 }
 footer {
     display: grid
+    grid-templates-colomns:repeat(3, 1fr);
 
 }
-images_ sociallinks img {
-    grid-template-columns: repeat(3,1fr);
 
-}
 
