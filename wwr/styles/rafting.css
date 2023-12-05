@@ -70,7 +70,7 @@ body{
 
 header {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: repeat(5,1fr);
     align-items: center;    
     background-color: var(--nav-hover-link-color);
     padding: 10px;
@@ -83,14 +83,15 @@ header img {
 
 }
 
-header nav{
+header nav {
     display: grid;
     grid-template-columns: repeat(4, auto);
-    
 
+    }
+    images_adventure img {
+        width: 140px;
 
-
-}
+    }
 
   a {
     font-family: var(--paragraph-font); 
