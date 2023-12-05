@@ -77,7 +77,7 @@ header {
 }
 
 header img {
-    margin: 0 0.3 0 1 rem;
+    margin: 5 rem;
     width: 200px;
     height: auto;
 
@@ -117,8 +117,6 @@ nav {
 }
 footer {
     display: grid
-    grid-templates-colomns:repeat(3, 1fr);
-
-}
+    
 
 
