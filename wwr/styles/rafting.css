@@ -70,30 +70,38 @@ body{
 
 header {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: auto 1fr;
     align-items: center;    
     background-color: var(--nav-hover-link-color);
     padding: 10px;
 }
+
 header img {
     margin: 0 0.3 0 1 rem;
     width: 200px;
     height: auto;
 
-
 }
 
 header nav {
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(5,1fr);
 
     }
-    images_adventure img {
-        width: 140px;
-
+    
+    
+    
+    
+.images_adventure img {
+        width: 150px;
     }
-    images_adventure {
-        grid-column: 1/6;
+
+    figcaption {
+        background-color: #222;
+        color: #fff;
+        font: italic smaller sans-serif;
+        padding: 3px;
+        text-align: center;
     }
 
   a {
@@ -105,7 +113,15 @@ header nav {
      background-color:var(--nav-hover-background-color);
 } 
 
+nav {
+    text-align: right;
+}
 footer {
-    display: grid;
+    display: grid
 
 }
+images_ sociallinks img {
+    grid-template-columns: repeat(3,1fr);
+
+}
+
