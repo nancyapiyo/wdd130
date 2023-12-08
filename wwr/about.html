@@ -21,6 +21,33 @@
             </nav>
         </header>
         <main>
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                    <label for="email">Email:</label>
+                    <input type="email" id="useremail" name="useremail">
+                </fieldset>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <label for="browser">What is your favourite browser?</label>
+                    <select id="browser" name="browser">
+                        <options value="Chrome">chrome</options>
+                        <options value="Firefox">firefox</options>
+                        <options value="Safari"></options>
+                        <options value="Edge"></options>
+                        <options value="Brave"></options>
+                        <options value="Other"></options>
+                    </select>
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                    <label for="feedback">List the places you have lived:</label>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Gulu Ugand, Englad London"></textarea>
+                </fieldset>
+                <button type="submit">Submit poll</button>
+            </form>
+        </main>
            <div class="hero"> 
                 <img src="images/hero.jpg" alt="hero image" >
                 <h1>White Water Rafting</h1>
