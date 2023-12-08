@@ -2,24 +2,43 @@
 <html lang="en-US">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>WWD 130 | Form-user poll</title>
+    <meta name="viewport" content="width=device-width,initial-scale">
+    <title>WWD 130 | HTML Form - user poll</title>
   </head>
   <body>
-    <p>This is my page</p>
-  </body>
+    <header>
+        <h1>WWD 130 | Your Name |HTML Form - user poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname">
+                <label for="email">Email:</label>
+                <input type="email" id="useremail" name="useremail">
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">What is your favourite browser?</label>
+                <select id="browser" name="browser">
+                    <options value="Chrome">chrome</options>
+                    <options value="Firefox">firefox</options>
+                    <options value="Safari"></options>
+                    <options value="Edge"></options>
+                    <options value="Brave"></options>
+                    <options value="Other"></options>
+                </select>
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+                <label for="feedback">List the places you have lived:</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Gulu Ugand, Englad London"></textarea>
+                <button type="submit">Submit poll</button>
+            </fieldset>
+        </form>
+    </main>
+    </body>
+<footer>
+    <p>©2024 | HTML Form - User poll Activity | Your Name</p>
+</footer>
 </html>
-    <div class="from-items">
-        <label for="fullname">fullname</label>
-        <input type="text" id="fullname" name="fullname">
-        </div>
-
-        <div class="from-items column2">
-            <label for="fullname">fullname:</label>
-            <input type="text" id="fullname" name="fullname">
-            </div>
-        <div class="from-items column2">
-            <label for="useremail">email:</label>
-            <input type="email" id="useremail" name="useremail">
-    </div>
-</body>
