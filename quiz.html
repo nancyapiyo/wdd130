@@ -3,33 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Quiz Form">
+    <meta name="description" content=" Nancy Apiyo | A short Quiz about HTML and CSS">
     <meta name="author" content="Nancy Apiyo">
-    <title>WDD 130 | HTML AND CSS QUIZ </head>title>
+    <title>WDD 130 | HTML AND CSS Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
 </head>
-
 <body>
-    <header><h1>Basic HTML and CSS Quiz</h1></header>
+    <header><h1>WDD 130 | HTML AND CSS QUIZ | Nancy Apiyo</h1></header>
     <main>
         <form>
             <fieldset>
                 <legend>Questions</legend>
-                <ol>
-                    <li>
+                <ol class="numbered-list">
+                    <li class="question">
                         <label for="q1">What is HTML?</label>
                         <input type="text" id="q1" name="q1">
                     </li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    
+                    <li class="question">
+                        <label for="q2">Explain the purpose of CSS.</label><br>
+                        <textarea name="q2" id="q2" cols="30" rows="5"></textarea>
+                    </li>
+                    
+                    <li class="question">
+                        <label for="q3">What does HTML stand for?</label>
+                        <select name="q3" id="q3">
+                            <option value=""></option>
+                            <option value="Hypertext Markup Language">Hypertext Markup Language</option>
+                            <option value="Hypertext Transfer Language">Hypertext Transfer Language</option>
+                            <option value="Hyperlink and Text Manipulation Language">Hyperlink and Text Manipulation Language</option>
+                        </select>
+                    </li>
+                    
+                    <li class="question">
+                        <label for="q4">How do you define an ordered list in HTML?</label>
+                        <input type="text" id="q4" name="q4">
+                    </li>
+                    
+                    <li class="question">
+                        <p>What is the purpose of the &lt;div&gt; element in HTML?</p>
+                        <input type="radio" name="q5" value="a">a) To create a hyperlink<br>
+                        <input type="radio" name="q5" value="b">b) To group and style content<br>
+                        <input type="radio" name="q5" value="c">c) To define an image<br>
+                    </li>
+                    
+                    <li class="question">
+                        <label for="q6">What does CSS stand for?</label>
+                        <input type="text" id="q6" name="q6">
+                    </li>
+                
+                    <li class="question">
+                        <label for="q7">Which HTML tag is used to create an unordered list?</label>
+                        <select name="q7" id="q7">
+                            <option value=""></option>
+                            <option value="ul">ul</option>
+                            <option value="ol">ol</option>
+                            <option value="li">li</option>
+                            <option value="dl">dl</option>
+                        </select>
+                    </li>
+                    
+                    <li class="question">
+                        <label for="q8">What is the purpose of the CSS `margin` property?</label>
+                        <input type="text" id="q8" name="q8">
+                    </li>
+                    <br>
+                    <li class="question">
+                        <p>What does the CSS property `display: none;` do to an element?</p>
+                        <input type="radio" name="q9" value="a">a) Makes it invisible and takes up space<br>
+                        <input type="radio" name="q9" value="b">b) Makes it invisible but still occupies space<br>
+                        <input type="radio" name="q9" value="c">c) Removes it from the layout entirely<br>
+                    </li>
+                    
+                    <li class="question">
+                        <label for="q10">What is the default font size in CSS when using the font-size property with no specified unit?</label>
+                        <input type="number" id="q10" name="q10" step="1">
+                    </li>
                 </ol>
                 
+                <div class="center-button">
+                    <button type="submit">Submit Quiz</button>
+                </div>
             </fieldset>
-            <button type="submit">Submit quiz</button>
+            
+        </form>
     </main>
-</body>
-    
-
-</html>
-    
+    <footer>
+        <p>©2024 | HTML Form - User poll Activity | Your Name</p>
+    </footer>
+    </html>
