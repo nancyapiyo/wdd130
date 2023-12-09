@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:  'Josefin Sana', Roboto;
+    font-size: 1.2em;
+    color: #333; 
+    background: #fff;
+}
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: navy;
+    text-align: center;
+}
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #eee;
+    display: grid;
+}
+p {
+    font-family: 'Josefin sans', Roboto;
+    font-weight: bold;
+}
+.question {
+    margin-bottom: 15px;
+}
+ol li::marker {
+    color: navy;
+    font-weight: bold;
+    padding-left: 5px;
+
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+label, input, button, select, textarea {
+    font-family: 'Josefin sans', Roboto;
+}
+legend{
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+label {
+    display: block;
+    font-weight: bold;
+}
+
+textarea, select, input[type="text"] {
+    width: 100%;
+    padding: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.center-button {
+    text-align: center; 
+}
+button[type="submit"] {
+    background-color: navy;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: .5rem;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 200px;
+    margin: 0 auto;
+}
+
+button[type="submit"]:hover {
+    background-color: navy;
+}
+
+footer {
+    background-color: #fff;
+    color: navy;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+    border-top: 1px solid #333;
+}
