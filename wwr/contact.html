@@ -4,65 +4,129 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/rafting.css">
-    <meta name="We offers the moments you desire at anytime in all times." content=" Nancy Apiyo">
+    <title>Contact Us | Rafting </title>
+    <meta name="description" content="Nancy Apiyo | WDD130. Contact Rafting Adventures to learn more about our website and get in touch with our dedicated team. Find our location in Labone, Accra, or reach out via phone or email. Send us a message, and we'll be happy to assist you">
     <meta name="author" content="Nancy Apiyo">
-    <title>White Water Raft Joyous Moments</title>
-
 </head>
-    
-    <body>
-        <header>
-            <img src="images/logo.png" alt="logo">
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About Us</a>
-                <a href="trips.html">Trips</a> 
+<body>
+    <header>
+        <img src="images/logo.png" alt="logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contacts</a>
+        </nav>
+    </header>
 
-                <a href="contact.html">Contacts</a>
-                <form>
-                    <fieldset>
-                        <legend>Contact Information</legend>
-                        <label for="fullname">Full Name:</label>
-                        <input type="text" id="fullname" name="fullname">
-                        <label for="email">Email:</label>
-                        <input type="email" id="useremail" name="useremail">
-                    </fieldset>
+    <main>
+        <section id="contact-form">
+            <h1>Contact Us</h1> 
+            <form>
+                <fieldset class="contact-info">
+                    <legend>Contact Information</legend>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5166.4020867959625!2d-0.1938718300043815!3d5.566892414564779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sgh!4v1697242395083!5m2!1sen!2sgh" width="400" height="300"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                    <div id="contact-info">
+                        <div class="contact-item">
+                            <img src="images/location.png" alt="Address Icon">
+                            <p>078 Layibi Industrial Area<br>Gulu, Uganda</p>
+                        </div>
+                        <div class="contact-item">
+                            <img src="images/phone.png" alt="Phone Icon">
+                            <p>Phone: (+256) 782-746-473</p>
+                        </div>
+                        <div class="contact-item">
+                            <img src="images/email-icon.png" alt="Email Icon">
+                            <p>Email: nancyapiyo2001@gmail.com</p>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Meet Our Team</legend>
+                    <div id="employee-profiles" class="center-button">
+                        <div class="employee">
+                            <img src="images/emp1.jpeg" alt="Employee 1">
+                            <div class="employee-details">
+                                <p class="employee-name">Jane Doe</p>
+                                <p class="employee-job">Raft Guide</p>
+                                <p class="employee-description">Jane is our experienced<br>river guide, navigating<br>and leading thrilling rafting<br>adventures.</p>
+                            </div>
+                        </div>
+                        <div class="employee">
+                            <div class="employee-details">
+                                <p class="employee-name">John Smith</p>
+                                <p class="employee-job">Booking Specialist</p>
+                                <p class="employee-description">John ensures your reservation<br>process is smooth<br>and helps you plan<br>your rafting experience.</p>
+                            </div>
+                            <img src="images/enp2.jpeg" alt="Employee 2">
+                        </div>
+                        <div class="employee">
+                            <img src="images/emp3.jpeg" alt="Employee 3">
+                            <div class="employee-details">
+                                <p class="employee-name">Mike Johnson</p>
+                                <p class="employee-job">Safety Instructor</p>
+                                <p class="employee-description">Mike is dedicated to<br>ensuring your safety<br>during your rafting<br>journey.</p>
+                            </div>
+                        </div>
+                        <div class="employee">
+                            <div class="employee-details">
+                                <p class="employee-name">Josh Carlson</p>
+                                <p class="employee-job">River Expert</p>
+                                <p class="employee-description">Josh is an expert<br>in all things rafting,<br>making your experience<br>unforgettable.</p>
+                            </div>
+                            <img src="images/emp4.jpeg" alt="Employee 4">
+                        </div>
+                    </div>
+                </fieldset>
                 
 
-            </nav>
-        </header>
-        <main>
-        
+                <fieldset>
+                    <legend>Contact Form</legend>
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                   
+                    <div id="purpose">
+                        <label for="inquiry">Purpose of Message:</label>
+                        <input type="radio" id="inquiry" name="purpose" value="General Inquiry">General Inquiry<br>
+                        <input type="radio" id="reservation" name="purpose" value="Reservation Question">Reservation Question <br>
+                        <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">Website Suggestion <br>
+                    </div>
+
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                     
+                    <input type="checkbox" id="subscribe" name="newsletter">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter:</label>
+                    
+                    <label for="submit"></label>
+                    <button type="submit" id="submit" class="center-button">Submit Your Enquiries</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>©2024 🌴 Rafting 🌴 Nancy Apiyo🌴 WWD 130</p>
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/fb_icon.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/x_icon.png" alt="twitter">
+            </a>
+            <a href="https://instagram.com"" target="_blank">
+                <img src="images/ig_icon.png" alt="instagram">
+            </a>
+            <a href="images/wireframe-image.jpg" target="_blank">
+                <img src="images/wireframe-icon.png" alt="Contact Us Wireframe" width="30">
+            </a>
             
-            <div class="map"
-             <iframe
-                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3366.284148585113!2d-84.99843542518732!3d32.46509079986302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x888ccdb9fca487c5%3A0xe25789a2a58405ef!2sWhitewater%20Express!5e0!3m2!1sen!2sug!4v1702057593272!5m2!1sen!2sug" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        </main>
-        </body>
-        
-            <footer>
-                <p>©2024 🌴 Rafting Site Document 🌴 Nancy Apiyo🌴 WWD 130</p>
-
-                <nav class="sociallinks">
-                    <figure>
-                    <a href="https://facebook.com">
-                        <img src="images/fb_icon.png" alt="Facebook">
-                        <figcaption>facebook</figcaption>
-                    </a>
-                    <figure>
-                    <a href="https://twitter.com">
-                        <img src="images/x_icon.png" alt="twitter">
-                        <figcaption> twitter</figcaption>
-                    </a>
-                    <figure>
-                    <a href="https://instagram.com">
-                        <img src="images/ig_icon.png" alt="instagram">
-                        <figcaption>instagram</figcaption>
-                    </figure>
-                    </a>
-                </nav>
-                
-             </footer>
-    </body> 
-</html>        
+    </footer>
+</body>
+</html>
