@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto&display=swap');
 /* Global CSS Variables */
 :root {
-    --primary-color: #0073e6;
-    --secondary-color: #8B4513;
-    --accent1-color: #00AA9A;
-    --accent2-color: #F5F5F5;
+    --primary-color: #3c91e6;
+    --secondary-color: #e9afa3;
+    --accent1-color: #f9dec9;
+    --accent2-color: #3a405a;
 
-    --heading-font: 'Josefin sans';
-    --paragraph-font: Roboto;
+    --heading-font: 'Josefin sans'serif;
+    --paragraph-font: Roboto,serif;
 
-    --nav-background-color: #F5F5F5;
-    --nav-link-color: #00AA9A;
-    --nav-hover-link-color: #0073e6;
-    --nav-hover-background-color: #0073e6;
+    --nav-background-color: #f9dec9;
+    --nav-link-color: #3a405a;
+    --nav-hover-link-color: #3c91e6;
+    --nav-hover-background-color: #f9dec9;
 }
 
 /* Heading Styles */
